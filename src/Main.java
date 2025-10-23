@@ -6,9 +6,17 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
 
         String pozdrav = "Ahoj svet";
+        String meno = "praje Mario";
+
+        //meno = pozdrav;
+
+        //pozdrav = "Toto je novy text";
+
+        //String pozdrav;
+        //pozdrav = "Ahoj svet";
 
 
-        System.out.println(pozdrav);
+        System.out.println(pozdrav + " " + meno);
         System.out.println(pozdrav);
         System.out.println(pozdrav);
         }
