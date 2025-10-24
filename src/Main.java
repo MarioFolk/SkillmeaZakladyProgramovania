@@ -87,6 +87,14 @@ public class Main {
         System.out.println(mojText.length()); */
 
 
+        /*String textCislo = "55";
+        int prevedeneCislo = Integer.parseInt(textCislo);
+        System.out.println(prevedeneCislo + 5); */
+
+
+
+
+
 
 
 
