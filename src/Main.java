@@ -79,6 +79,14 @@ public class Main {
         //System.out.println(prveCislo % druheCislo); */
 
 
+        /*//String metody
+        Scanner mojScanner = new Scanner(System.in);
+        System.out.println("Zadaj svoj text:");
+        String mojText = mojScanner.nextLine();
+
+        System.out.println(mojText.length()); */
+
+
 
 
 
