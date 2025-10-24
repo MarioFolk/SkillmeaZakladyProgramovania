@@ -64,6 +64,19 @@ public class Main {
         System.out.println("Prajem pekny den " + meno); */
 
 
+        /*//Vylepsena kalkulacka
+        Scanner mojScanner = new Scanner(System.in);
+
+        System.out.println("Zadaj prve cislo:");
+        int prveCislo = mojScanner.nextInt();
+        System.out.println("Zadaj druhe cislo:");
+        int druheCislo = mojScanner.nextInt();
+
+        System.out.println(prveCislo + druheCislo);
+        System.out.println(prveCislo - druheCislo);
+        System.out.println(prveCislo * druheCislo);
+        System.out.println(prveCislo / druheCislo);
+        //System.out.println(prveCislo % druheCislo); */
 
 
 
