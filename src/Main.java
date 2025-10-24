@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    private static String Mario;
+
+
+
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
@@ -30,7 +36,7 @@ public class Main {
         //System.out.println(prveCislo + druheCislo);
         //System.out.println(prveCislo - druheCislo);
         //System.out.println(prveCislo * druheCislo);
-        //System.out.println(prveCislo : druheCislo);
+        //System.out.println(prveCislo / druheCislo);
 
         //boolean pravdaNepravda = false;
 
@@ -50,6 +56,13 @@ public class Main {
         /*float prveDesCislo = 0.1f;
         String druheCislo = "2";
         System.out.println(prveDesCislo + druheCislo); */
+
+
+        /*System.out.println("Ahoj, zadaj meno:");
+        Scanner mojScanner = new Scanner(System.in);
+        String meno = mojScanner.nextLine();
+        System.out.println("Prajem pekny den " + meno); */
+
 
 
 
