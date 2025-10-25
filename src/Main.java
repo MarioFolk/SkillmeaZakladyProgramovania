@@ -8,63 +8,56 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-
-        /*String pozdrav = "Ahoj svet";
-        String meno = "praje Mario";
-
-        //meno = pozdrav;
-
-        //pozdrav = "Toto je novy text";
-
-        //String pozdrav;
-        //pozdrav = "Ahoj svet";
-
-
-        System.out.println(pozdrav + " " + meno);
-        System.out.println(pozdrav);
-        System.out.println(pozdrav); */
+        /*
+        TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+         to see how IntelliJ IDEA suggests fixing it.
+        String pozdrav = "Ahoj svet";
+         String meno = "praje Mario";
+         meno = pozdrav;
+         pozdrav = "Toto je novy text";
+         String pozdrav;
+         pozdrav = "Ahoj svet";
+         System.out.println(pozdrav + " " + meno);
+         System.out.println(pozdrav);
+         System.out.println(pozdrav);
+        */
 
 
-        //Kalkulacka
+        /* Kalkulacka
+        int prveCislo = 10;
+        int druheCislo = 5;
 
-        //int prveCislo = 10;
-        //int druheCislo = 5;
+        System.out.println(prveCislo + druheCislo);
+        System.out.println(prveCislo - druheCislo);
+        System.out.println(prveCislo * druheCislo);
+        System.out.println(prveCislo / druheCislo);
 
+        boolean pravdaNepravda = false;
+        float prveDesCislo = 0.1f;
+        float druheDesCislo = 0.2f;
 
-        //System.out.println(prveCislo + druheCislo);
-        //System.out.println(prveCislo - druheCislo);
-        //System.out.println(prveCislo * druheCislo);
-        //System.out.println(prveCislo / druheCislo);
+        System.out.println(prveDesCislo + druheDesCislo);
 
-        //boolean pravdaNepravda = false;
-
-        //float prveDesCislo = 0.1f;
-        //float druheDesCislo = 0.2f;
-        //System.out.println(prveDesCislo + druheDesCislo);
-
-        //final konstanta sa uz nemoze dalej prepisovat
-
-        //double prveCislo = 5;
-        //final double druheCislo = 10;
-        //druheCislo = 40;
-
+        /* final konstanta sa uz nemoze dalej prepisovat
+        double prveCislo = 5;
+        final double druheCislo = 10;
+        druheCislo = 40;
 
         //boolean pravdaNepravda = false;
 
-        /*float prveDesCislo = 0.1f;
+        float prveDesCislo = 0.1f;
         String druheCislo = "2";
         System.out.println(prveDesCislo + druheCislo); */
 
 
-        /*System.out.println("Ahoj, zadaj meno:");
+        /* Scanner
+        System.out.println("Ahoj, zadaj meno:");
         Scanner mojScanner = new Scanner(System.in);
         String meno = mojScanner.nextLine();
         System.out.println("Prajem pekny den " + meno); */
 
 
-        /*//Vylepsena kalkulacka
+        /* Vylepsena kalkulacka
         Scanner mojScanner = new Scanner(System.in);
 
         System.out.println("Zadaj prve cislo:");
@@ -76,10 +69,10 @@ public class Main {
         System.out.println(prveCislo - druheCislo);
         System.out.println(prveCislo * druheCislo);
         System.out.println(prveCislo / druheCislo);
-        //System.out.println(prveCislo % druheCislo); */
+        System.out.println(prveCislo % druheCislo); */
 
 
-        /*//String metody
+        /* String metody
         Scanner mojScanner = new Scanner(System.in);
         System.out.println("Zadaj svoj text:");
         String mojText = mojScanner.nextLine();
@@ -87,19 +80,12 @@ public class Main {
         System.out.println(mojText.length()); */
 
 
-        /*String textCislo = "55";
+        /* Parsovanie
+        String textCislo = "55";
         int prevedeneCislo = Integer.parseInt(textCislo);
-        System.out.println(prevedeneCislo + 5); */
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(prevedeneCislo + 5);
+        int x = 10;
+        int y = 5;
+        System.out.println(x!=y); */
     }
-    }
+}
