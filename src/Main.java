@@ -80,12 +80,32 @@ public class Main {
         System.out.println(mojText.length()); */
 
 
-        /* Parsovanie
+        // Parsovanie
         String textCislo = "55";
         int prevedeneCislo = Integer.parseInt(textCislo);
         System.out.println(prevedeneCislo + 5);
+
+        /* Operatory - Logicke
         int x = 10;
-        int y = 5;
-        System.out.println(x!=y); */
+        int y = 9;
+        int z = 12;
+        System.out.println(x == y);
+        System.out.println(x > y);
+        System.out.println(x < y);
+
+        //&& - AND vsetky podmienky pravda
+        System.out.println(x > y && z > x);
+        System.out.println(x > y && z > x && z > y);
+
+        //|| - OR aspon jedna podmienka pravda
+        System.out.println(x > y || z > x);
+        System.out.println(x > y || z > x || z > y);
+        System.out.println(x > y || z < x || z > y && z > y);
+
+        // ! - NOT
+        System.out.println(!(x > y || z < x));
+        System.out.println(!(x > y || z < x) && y > z); */
     }
 }
+
+
