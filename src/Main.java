@@ -80,10 +80,11 @@ public class Main {
         System.out.println(mojText.length()); */
 
 
-        // Parsovanie
+        /* Parsovanie
         String textCislo = "55";
         int prevedeneCislo = Integer.parseInt(textCislo);
-        System.out.println(prevedeneCislo + 5);
+        System.out.println(prevedeneCislo + 5); */
+
 
         /* Operatory - Logicke
         int x = 10;
@@ -105,7 +106,55 @@ public class Main {
         // ! - NOT
         System.out.println(!(x > y || z < x));
         System.out.println(!(x > y || z < x) && y > z); */
+
+
+        /* //Podmienky
+        Scanner mojScanner = new Scanner(System.in);
+        System.out.println("Zadaj vek:");
+        int vek = mojScanner.nextInt();
+        //Toto rozhoduje o tom ci je uzivatel dospely/neplnolety/senior
+        if(vek >= 18) {
+            System.out.println("Uzivatel je dospely");
+            if(vek >= 65) {
+                System.out.println("Uzivatel je senior");
+            }
+        }
+        else if(vek < 18 && vek >= 0){
+            System.out.println("Uzivatel je neplnolety");
+        }
+        else {
+            System.out.println("Nemozes zadat zaporny vek"); */
+
+
+        /* Vypocet BMI hmotnost(kg)/vyska(m) na druhu
+        // (<18.5) - podvaha
+        // (>=18.5 && <25) - optimalna vaha
+        // (>=25) - nadvaha
+        float vyska;
+        float hmotnost;
+        float bmi;
+        Scanner mojScanner = new Scanner(System.in);
+
+        System.out.println("Zadaj vysku(m):");
+        vyska = mojScanner.nextFloat();
+        System.out.println("Zadaj hmotnost(kg):");
+        hmotnost = mojScanner.nextFloat();
+
+        bmi = hmotnost/(vyska * vyska);
+
+        if(bmi >= 0 && bmi < 18.5f){
+            System.out.println("Utivatel ma podvahu");
+        }
+        else if(bmi >= 18.5f && bmi < 25){
+            System.out.println("Uzivatel ma optimalnu vahu");
+        }
+        else if(bmi >= 25){
+            System.out.println("Uzivatel ma nadvahu");
+        }
+        else {
+            System.out.println("Nemoze sa zadat zaporna hmotnost");
+        }
+
+        System.out.println("Vypocitane BMI: " + bmi); */
     }
 }
-
-
