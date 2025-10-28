@@ -1,3 +1,5 @@
+import java.util.Random;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -149,19 +151,19 @@ public class Main {
         else {
             System.out.println("Nemoze sa zadat zaporna hmotnost");
         }
-
-        System.out.println("Vypocitane BMI: " + bmi); */
-    }
-}
+        System.out.println("Vypocitane BMI: " + bmi);*/
 
 
-/*//Hra kostky licha=vyhravas, suda=prohravas
-int hozeneCislo;
-Random nahodnyGenerator = new Random();
-hozeneCislo = nahodnyGenerator.nextInt(origin:1, bound:7);
-    System.out.println("Hozene cislo: " + hozeneCislo);
-    if(hozeneCislo % 2 == 1){
-        System.out.println("Licha vyhravas");
-}
+        /*Hra kostky licha = vyhravas, suda=prohravas
+        int hozeneCislo;
+        Random nahodnyGenerator = new Random();
+        int origin;
+        hozeneCislo = nahodnyGenerator.nextInt(1,7);
+        System.out.println("Hozene cislo: " + hozeneCislo);
+        if(hozeneCislo % 2 == 1){
+            System.out.println("Licha vyhravas");
+        }
         else {
-        System.out.println("Suda prohravas");*/
+            System.out.println("Suda prohravas");*/
+        }
+    }
