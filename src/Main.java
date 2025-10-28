@@ -1,11 +1,6 @@
-import java.util.Scanner;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    private static String Mario;
-
-
 
     public static void main(String[] args) {
         /*
@@ -158,3 +153,15 @@ public class Main {
         System.out.println("Vypocitane BMI: " + bmi); */
     }
 }
+
+
+/*//Hra kostky licha=vyhravas, suda=prohravas
+int hozeneCislo;
+Random nahodnyGenerator = new Random();
+hozeneCislo = nahodnyGenerator.nextInt(origin:1, bound:7);
+    System.out.println("Hozene cislo: " + hozeneCislo);
+    if(hozeneCislo % 2 == 1){
+        System.out.println("Licha vyhravas");
+}
+        else {
+        System.out.println("Suda prohravas");*/
