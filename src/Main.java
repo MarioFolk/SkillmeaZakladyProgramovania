@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -165,5 +166,46 @@ public class Main {
         }
         else {
             System.out.println("Suda prohravas");*/
+
+
+        /*Vyber dna
+        Scanner mojScanner = new Scanner(System.in);
+        int cisloDna;
+
+        System.out.println("Zadaj cislo dna:");
+        cisloDna = mojScanner.nextInt();
+
+        switch(cisloDna) {
+            case 1:
+                System.out.println("Je pondelok");
+                break;
+            case 2:
+                System.out.println("Je utorok");
+                break;
+            case 3:
+                System.out.println("Je streda");
+                break;
+            case 4:
+                System.out.println("Je stvrtok");
+                break;
+            case 5:
+                System.out.println("Je piatok");
+                break;
+            case 6:
+                System.out.println("Je sobota");
+                break;
+            case 7:
+                System.out.println("Je nedela");
+                break;*/
+
+
+
+
+
+
+
         }
     }
+
+
+
