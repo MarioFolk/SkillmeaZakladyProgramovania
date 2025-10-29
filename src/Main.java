@@ -196,16 +196,8 @@ public class Main {
                 break;
             case 7:
                 System.out.println("Je nedela");
-                break;*/
-
-
-
-
-
-
-
+                break;
+                default:
+                    System.out.println("Neplatne cislo dna");*/
         }
     }
-
-
-
