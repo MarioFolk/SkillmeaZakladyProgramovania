@@ -177,27 +177,18 @@ public class Main {
 
         switch(cisloDna) {
             case 1:
-                System.out.println("Je pondelok");
-                break;
             case 2:
-                System.out.println("Je utorok");
-                break;
             case 3:
-                System.out.println("Je streda");
-                break;
             case 4:
-                System.out.println("Je stvrtok");
-                break;
             case 5:
-                System.out.println("Je piatok");
+                System.out.println("Je pracovny den");
                 break;
             case 6:
-                System.out.println("Je sobota");
-                break;
             case 7:
-                System.out.println("Je nedela");
+                System.out.println("Je vikend");
                 break;
                 default:
                     System.out.println("Neplatne cislo dna");*/
         }
     }
+
