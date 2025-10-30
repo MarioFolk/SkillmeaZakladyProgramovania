@@ -189,6 +189,25 @@ public class Main {
                 break;
                 default:
                     System.out.println("Neplatne cislo dna");*/
-        }
-    }
 
+
+        /*Pole
+        int[] znamky = new int[5];
+        znamky[0] = 3;
+        znamky[1] = 5;
+        znamky[2] = 2;
+        znamky[3] = 3;
+        znamky[4] = 1;
+        int[] znamky = new int[] {3, 5, 2, 3, 1};   //skrateny zapis
+        System.out.println(znamky[4]);
+
+        /*String[] menaStudentov = new String[] {"Honza", "Lenka", "Petr", "Katka", "Petra"};
+        menaStudentov[3] = "Tereza";
+        menaStudentov[3] = menaStudentov[0];
+
+        System.out.println(menaStudentov[2].length());
+
+        int[][] viacDimPole = new int[2][2];
+        viacDimPole[0][0] = 83;*/
+    }
+}
