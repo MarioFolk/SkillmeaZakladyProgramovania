@@ -271,6 +271,29 @@ public class Main {
                 break;
             }
             riadiacaPremenna++;*/
+
+
+/*break = ukoncenie smycky; continue = ukoncenie iterace a pokracovani dalej
+
+        int riadiacaPremenna = 0;
+        while (true) {
+            System.out.println("riadiacaPremenna");
+            if (riadiacaPremenna > 5) {
+                continue;
+            }
+            riadiacaPremenna++;*/
+
+
+        /*Hod kockou vylepseny o smycku
+        int hodeneCislo;
+        Random nahodnyGenerator = new Random();
+        hodeneCislo = nahodnyGenerator.nextInt(1, 7);
+        System.out.println("Hodene cislo: " + hodeneCislo);
+        if (hodeneCislo % 2 == 1) {
+            System.out.println("Neparna vyhravas");
+        } else {
+            System.out.println("Parna prehravas");*/
+        }
     }
-}
+
 
