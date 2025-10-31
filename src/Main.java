@@ -260,5 +260,17 @@ public class Main {
             System.out.println(riadiacaPremenna);
             //riadiacaPremenna++;
         }while(riadiacaPremenna!= 0);*/
+
+
+        /*break = ukoncenie smycky; continue = ukoncenie iterace a pokracovani dalej
+
+        int riadiacaPremenna = 0;
+        while (true) {
+            System.out.println("riadiacaPremenna");
+            if (riadiacaPremenna > 5) {
+                break;
+            }
+            riadiacaPremenna++;*/
     }
 }
+
