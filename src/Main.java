@@ -216,6 +216,7 @@ public class Main {
         for(int i = 0; i < 1000; i++) {
             System.out.println(i + "Ahoj svet");*/
 
+
         /*Smycky- prechadzanie pola
         String[] menaStudentov = new String[] {"Honza", "Lenka","Petr","Katka","Petra"};
         for(int i = 0; i < 5; i++){
@@ -231,5 +232,19 @@ public class Main {
             String[] menaStudentov = new String[]{"Honza", "Lenka", "Petr", "Katka", "Petra"};
             for (String jednoMeno : menaStudentov) {
                 System.out.println(jednoMeno);*/
-            }
+
+
+        /*int[] nasobky = new int[10];
+
+//Naplnenie pola nasobkami 10
+        for(int i=0; i<nasobky.length; i++){
+            nasobky[i] = 10 * i;
         }
+
+//Vypis pola nasobkov
+        for(int jedenNasobok: nasobky){
+            System.out.println(jedenNasobok);*/
+        }
+    }
+
+
