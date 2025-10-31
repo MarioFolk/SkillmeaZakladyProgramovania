@@ -209,5 +209,27 @@ public class Main {
 
         int[][] viacDimPole = new int[2][2];
         viacDimPole[0][0] = 83;*/
-    }
-}
+
+
+        /*Smycky
+        For
+        for(int i = 0; i < 1000; i++) {
+            System.out.println(i + "Ahoj svet");*/
+
+        /*Smycky- prechadzanie pola
+        String[] menaStudentov = new String[] {"Honza", "Lenka","Petr","Katka","Petra"};
+        for(int i = 0; i < 5; i++){
+            System.out.println(menaStudentov[i]);*/
+
+
+        /*String[] menaStudentov = new String[]{"Honza", "Lenka", "Petr", "Katka", "Petra"};
+        for (int i = 0; i < menaStudentov.length; i++) {
+            System.out.println(menaStudentov[i]);*/
+
+
+            /*foreach
+            String[] menaStudentov = new String[]{"Honza", "Lenka", "Petr", "Katka", "Petra"};
+            for (String jednoMeno : menaStudentov) {
+                System.out.println(jednoMeno);*/
+            }
+        }
