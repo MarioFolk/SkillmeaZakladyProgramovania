@@ -235,16 +235,19 @@ public class Main {
 
 
         /*int[] nasobky = new int[10];
-
 //Naplnenie pola nasobkami 10
         for(int i=0; i<nasobky.length; i++){
             nasobky[i] = 10 * i;
-        }
 
-//Vypis pola nasobkov
+/*Vypis pola nasobkov
         for(int jedenNasobok: nasobky){
             System.out.println(jedenNasobok);*/
+
+//Smycka while
+        int riadiacaPremenna = 0;
+        while (riadiacaPremenna < 5) {
+            System.out.println(riadiacaPremenna);
+            riadiacaPremenna++;
         }
     }
-
-
+}
