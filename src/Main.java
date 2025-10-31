@@ -243,11 +243,22 @@ public class Main {
         for(int jedenNasobok: nasobky){
             System.out.println(jedenNasobok);*/
 
-//Smycka while
+/*Smycka while
         int riadiacaPremenna = 0;
         while (riadiacaPremenna < 5) {
             System.out.println(riadiacaPremenna);
+            riadiacaPremenna++;*/
+
+/*Smycka while a dowhile
+        int riadiacaPremenna = 0;
+
+        while(riadiacaPremenna !=0){
+            System.out.println(riadiacaPremenna);
             riadiacaPremenna++;
         }
+        do{
+            System.out.println(riadiacaPremenna);
+            //riadiacaPremenna++;
+        }while(riadiacaPremenna!= 0);*/
     }
 }
