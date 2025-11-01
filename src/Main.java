@@ -304,18 +304,17 @@ public class Main {
         do {
             System.out.println("Pre hod kockou stlac enter");
             mojScanner.nextLine();
+            hodeneCislo = nahodnyGenerator.nextInt(1, 7);
+            System.out.println("Hodene cislo: " + hodeneCislo);
 
+            if (hodeneCislo % 2 == 1) {
+                System.out.println("Neparna vyhravas");
+            }
+            else {
+                System.out.println("Parna prehravas");
+            }
 
         } while (riadiacaPremenna);
 
-        hodeneCislo = nahodnyGenerator.nextInt(1, 7);
-        System.out.println("Hodene cislo: " + hodeneCislo);
-        if (hodeneCislo % 2 == 1) {
-            System.out.println("Neparna vyhravas");
-        } else {
-            System.out.println("Parna prehravas");
-        }
     }
 }
-
-
