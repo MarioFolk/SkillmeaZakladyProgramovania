@@ -293,7 +293,29 @@ public class Main {
             System.out.println("Neparna vyhravas");
         } else {
             System.out.println("Parna prehravas");*/
+
+
+        //Hod kockou vylepseny o smycku
+        int hodeneCislo;
+        boolean riadiacaPremenna = true;
+        Random nahodnyGenerator = new Random();
+        Scanner mojScanner = new Scanner(System.in);
+
+        do {
+            System.out.println("Pre hod kockou stlac enter");
+            mojScanner.nextLine();
+
+
+        } while (riadiacaPremenna);
+
+        hodeneCislo = nahodnyGenerator.nextInt(1, 7);
+        System.out.println("Hodene cislo: " + hodeneCislo);
+        if (hodeneCislo % 2 == 1) {
+            System.out.println("Neparna vyhravas");
+        } else {
+            System.out.println("Parna prehravas");
         }
     }
+}
 
 
