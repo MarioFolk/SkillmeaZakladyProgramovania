@@ -299,6 +299,7 @@ public class Main {
         int hodeneCislo;
         boolean riadiacaPremenna = true;
         Random nahodnyGenerator = new Random();
+        String ukoncenie = "";
         Scanner mojScanner = new Scanner(System.in);
 
         do {
@@ -312,6 +313,12 @@ public class Main {
             }
             else {
                 System.out.println("Parna prehravas");
+            }
+
+            System.out.println("Pre ukoncenie hry zadaj pismeno q");
+            ukoncenie = mojScanner.nextLine();
+            if(ukoncenie.equals("q")) {
+                riadiacaPremenna = false;
             }
 
         } while (riadiacaPremenna);
