@@ -295,7 +295,7 @@ public class Main {
             System.out.println("Parna prehravas");*/
 
 
-        //Hod kockou vylepseny o smycku
+        /*Hod kockou vylepseny o smycku
         int hodeneCislo;
         boolean riadiacaPremenna = true;
         Random nahodnyGenerator = new Random();
@@ -321,7 +321,21 @@ public class Main {
                 riadiacaPremenna = false;
             }
 
-        } while (riadiacaPremenna);
+        } while (riadiacaPremenna);*/
+
+
+        //Blackjack
+        int skoreHraca = 0;
+        int skoreKrupiera = 0;
+        int tahanaKarta = 0;
+        String uzivatelskyVstup =;
+        Random nahGen = new Random();
+        Scanner mojScanner = new Scanner(System.in);
+
+
+
+
+
 
     }
 }
